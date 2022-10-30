@@ -2,15 +2,8 @@ body {
     background-color: #E7F6F0;
 }
 
-#name {
-    color: #2F5646;
-    font-weight: bold;
-    font-size: 24px;
-}
-
 .topnav {
     text-align: center;
-    left: 200px;
 }
 
 .topnav a {
@@ -20,40 +13,65 @@ body {
     color: #59866B;
     text-decoration: none;
     max-height: fit-content;
-    margin-left: 30px;
+    margin-left: 40px;
     text-shadow: 0px 2px 4px gray;
+    vertical-align: middle;
 }
 
 .topnav a.active {
     text-decoration: none;
 }
 
-.logo {
-    position: absolute;
+.topnav .name {
+    color: #2F5646;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.topnav img.logo {
     left: 300px;
     width: 85px;
     height: 85px;
 }
 
-.home {
+div.home {
+    position: relative;
     background-color: #B0ECD4;
     width: 100%;
 }
 
-#titulo {
-    border-top-width: 100px;
+.titulo1 {
     font-size: 54px;
     font-family: 'Eczar';
     color: #2F5646;
-    font-weight: bolder;
+    font-weight: 800;
+    margin-left: 130px;
+    line-height: 1.1;
+    padding-top: 150px;
 }
 
 .phome {
-    width: 630;
     margin-left: 75px;
-    text-align: justify;
     font-family: 'Eczar';
     font-size: 24px;
     color: #2F5646;
-    top: 20px;
+    line-height: 1;
+    padding-top: 50px;
+    width: 650px;
+    max-width: 100%;
+}
+
+.android {
+    height: 90px;
+    margin-left: 90px;
+}
+
+.iOS {
+    height: 90px;
+}
+
+div.home img.mockup {
+    padding-top: 50px;
+    float: right;
+    margin-right: 150px;
 }

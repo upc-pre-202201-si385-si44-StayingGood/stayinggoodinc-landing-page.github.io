@@ -35,9 +35,13 @@ div.topnav img.logo {
 }
 
 div.home {
-    position: relative;
+    position: fixed;
     background-color: #B0ECD4;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: var(--container-spacing, 1rem);
+    padding-left: var(--container-spacing, 1rem);
 }
 
 .titulo1 {
@@ -72,6 +76,30 @@ div.home {
 
 div.home img.mockup {
     padding-top: 50px;
-    float: right;
-    margin-right: 150px;
+    position: fixed;
+}
+
+
+
+div.sobre-nosotros {
+    position: relative;
+    width: auto;
+}
+
+.titulo2 {
+    font-size: 54px;
+    font-family: 'Eczar';
+    color: #2F5646;
+    font-weight: 800;
+    line-height: 1.1;
+    padding-left: 50px;
+}
+
+p.pnosotros {
+    margin-left: 75px;
+    font-family: 'Eczar';
+    font-size: 36px;
+    color: #2F5646;
+    line-height: 0;
+    
 }

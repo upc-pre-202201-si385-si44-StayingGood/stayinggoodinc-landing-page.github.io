@@ -48,9 +48,14 @@ div.topnav img.logo {
 /*Home*/
 div.home {
     background-color: #B0ECD4;
-    max-width: none;
+    padding: 0px 0px;
+    overflow: hidden;
 }
 
+.cuadro0 {
+    float: left;
+    margin-top: 50px;
+}
 
 h1 {
     line-height: normal;
@@ -77,32 +82,77 @@ h2 {
     margin-block-end: 0px;
 }
 
+.sobre-nosotros img.prototipo {
+    vertical-align: middle;
+    size: 370px 680px;
+}
+
+.home p {
+    color: #2F5646;
+    font-size: 24px;
+    font-family: 'Eczar';
+    text-align: left;
+    line-height: 1;
+    margin-left: 50px;
+}
+
+.home img.os{
+    margin-left: 30px;
+}
 
 /*Sobre nosotros*/
 .sobre-nosotros {
-
     background-image: url(assets/fondo02.png);
+    background-repeat: no-repeat;
     padding: 0px 0px;
     text-align: center;
+    overflow: hidden;
 }
 
+.cuadro1 {
+    float: left;
+}
 
+.sobre-nosotros p {
+    color: #5D886D;
+    font-size: 36px;
+    font-family: 'Eczar';
+    text-align: left;
+    line-height: 1;
+}
+
+div.sobre-nosotros img.logo-centro {
+    vertical-align: middle;
+    size: 276px 276px;
+    margin-left: 90px;
+    margin-top: 150px;
+}
+
+div.sobre-nosotros img.plato {
+    margin-top: 350px;
+    margin-bottom: 70px;
+    vertical-align: middle;
+    width: 510px;
+    height: 360px;
+}
 
 /*Planes*/
 .boxes {
     overflow: hidden;
     width: 100%;
 }
-.cuadro {
+
+.cuadro2 {
     width: 450px;
     height: 450px;
     border-radius: 10% 10% / 10% 10%;
     background: #E7F6F0;
-    margin-left: 90px;
+    margin-left: 200px;
     background-image: url(assets/bloque-icon.png);
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
 li {
     line-height: normal;
     font-family: 'Eczar';
@@ -114,9 +164,10 @@ li {
     margin-right: 35px;
     line-height: 50px;
 }
- h2.plan-precio{
+
+h2.plan-precio {
     color: #2F5646;
-    text-align: center; 
+    text-align: center;
     margin-left: 70px;
 }
 
@@ -128,16 +179,18 @@ img.mockup-app {
 }
 
 /*Footer*/
-.footer{
+.footer {
     background-color: #B0ECD4;
     max-width: none;
     padding-right: var(--container-spacing, 1rem);
     padding-left: var(--container-spacing, 1rem);
 }
-.logo-final{
+
+.logo-final {
     width: 95px;
     height: 95px;
 }
+
 .footer a {
     line-height: normal;
     font-family: 'Eczar';
@@ -146,12 +199,14 @@ img.mockup-app {
     text-decoration: none;
     vertical-align: middle;
 }
+
 .footer .name2 {
     color: #2F5646;
     font-weight: bold;
     font-size: 20px;
 }
-.copyright{
+
+.copyright {
     color: #2F5646;
     font-size: 18px;
 }

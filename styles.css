@@ -239,11 +239,13 @@ input {
     padding-left: 10px;
 }
 
-button {
+.footer a.btn-suscribir {
     background-color: #2F5646;
     font-size: 24px;
     font-family: 'Eczar';
     color: #E7F6F0;
+    padding-left: 5px;
+    padding-right: 5px;
     border-width: 0px;
 }
 

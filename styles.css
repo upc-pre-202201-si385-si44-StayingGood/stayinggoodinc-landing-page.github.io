@@ -122,9 +122,9 @@ h2 {
     line-height: 1;
 }
 
-.sobre-nosotros h1 {
+.titulo {
     text-align: left;
-
+    margin-left: 30px;
 }
 
 div.sobre-nosotros-2 img.plato {
@@ -175,7 +175,6 @@ li {
 h2.plan-precio {
     color: #2F5646;
     text-align: center;
-    margin-left: 200px;
     margin-bottom: 50px;
 }
 
